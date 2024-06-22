@@ -20,7 +20,7 @@ the model can be used by calling the predict function of BankDocPredictor class 
 To test the class before deploying it, you can trust BankClassifier_test.py! its Written using pytest, and you need just to run the command `python -m pytest BankClassifier_test.py` to test all scenarios mentioned on image above.
 ![](Capture.JPG)
 
-Dockerize the project:
+# Dockerize the project:
 
 To run the project, after logging into your server host, use following command to copy the code onto the server:
 
