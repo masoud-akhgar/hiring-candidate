@@ -1,0 +1,9 @@
+version: "3"
+services:
+  app:
+    # if something fails or the server is restarted, the container will restart
+    restart: always 
+    container_name: app
+    image: app
+    build: 
+      context: . 
