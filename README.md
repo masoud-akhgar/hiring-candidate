@@ -2,20 +2,19 @@
 This python program uses the pre-trained model (detr-doc-table-detection) in the context of object detection to detect tables related to bank documents and invoices.
 
 In total, there are three python files in this project:
-- BankClassifier : a class developed using the Detr pretrained model to detect invoice and bank documents data in this particular case.
-- BankClassifier_test : an automated test coded as an unit test for the main class
-- sampleUsage : a sample use case which show simply how the class can be used after importing into the project
-- I also prepared an image "Scenarios.JPG" which we can explore the different scenarios which the model can end up, coinciding with the associated error.
+- **BankClassifier** : a class developed using the Detr pretrained model to detect invoice and bank documents data in this particular case.
+- **BankClassifier_test** : an automated test coded as an unit test for the main class
+- **sampleUsage** : a sample use case which show simply how the class can be used after importing into the project
+- I also prepared an image **Scenarios.JPG** which we can explore the different scenarios which the model can end up, coinciding with the associated error.
 
 Of course to deploy the model, the simpleUsage and test-related files were neglected to be mentioned on dockerfile.
 
-you can find the main class, named BankDocPredictor, on "BankClassifier.py" file. A few pictures of the dataset of Detr model have been used to test the correctness of the main model on "BankClassifier_test.py" file, while there has been added some pictures from "Financial Document Image Dataset
-" to test the model even more.
+you can find the main class, named **BankDocPredictor**, on **BankClassifier.py** file. A few pictures of the dataset of Detr model have been used to test the correctness of the main model on **BankClassifier_test.py** file, while there has been added some pictures from **Financial Document Image Dataset** to test the model even more.
 
-Financial Document Image Dataset=
+Financial Document Image Dataset :
 https://www.kaggle.com/datasets/mehaksingal/personal-financial-dataset-for-india
 
-You can see the different deduced scenarios on Scenarios.JPG in the project folder.
+You can see the different deduced scenarios on **Scenarios.JPG** in the project folder.
 the model can be used by calling the predict function of BankDocPredictor class in the main directory.
 
 Dockerize the project:
