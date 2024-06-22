@@ -21,16 +21,19 @@ the model can be used by calling the predict function of BankDocPredictor class 
 Dockerize the project:
 
 To run the project, after logging into your server host, use following command to copy the code onto the server:
-scp -R InvoiceDetection/ my-server.host.name:InvoiceDetection/
+
+`scp -R InvoiceDetection/ my-server.host.name:InvoiceDetection/`
+
 after making sure to install docker on server too, by this command...:
-curl -fsSL https://get.docker.com | sudo sh
+
+`curl -fsSL https://get.docker.com | sudo sh`
+
 then run the code using:
-cd InvoiceDetection/
-docker compose build
-docker compose up -d
 
-in the case of killing the process which now is running in the background, we can use "docker compose down".
-we can also check if the process is running by docker ps.
+`cd InvoiceDetection/`
+`docker compose build`
+`docker compose up -d`
 
-
+in the case of killing the process which now is running in the background, we can use `docker compose down`.
+we can also check if the process is running by `docker ps`.
 
