@@ -17,6 +17,10 @@ https://www.kaggle.com/datasets/mehaksingal/personal-financial-dataset-for-india
 You can see the different deduced scenarios on *Scenarios.JPG* in the project folder.
 the model can be used by calling the predict function of BankDocPredictor class in the main directory.
 
+To test the class before deploying it, you can trust BankClassifier_test.py! its Written using pytest, and you need just to run the command `python -m pytest BankClassifier_test.py` to test all scenarios mentioned on image above.
+![](![image](https://github.com/masoud-akhgar/hiring-candidate/assets/45591529/a6ea0468-a210-4178-9899-9d697d7d8b9e))
+
+
 Dockerize the project:
 
 To run the project, after logging into your server host, use following command to copy the code onto the server:
