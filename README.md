@@ -38,4 +38,4 @@ then run the code using:
 
 in the case of killing the process which now is running in the background, we can use `docker compose down`.
 we can also check if the process is running by `docker ps`.
-
+![](console.JPG)
